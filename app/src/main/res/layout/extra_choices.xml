@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view2"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="0dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
+    android:padding="0dp"
+    card_view:cardBackgroundColor="#FAFAFA"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="30sp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="ExtraOption"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hiddenText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="right|center_vertical"
+        android:padding="10dp"
+        android:text="Grande"
+        android:textSize="16sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/rightArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_margin="30dp"
+        android:visibility="visible"
+        tools:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+
+</androidx.cardview.widget.CardView>

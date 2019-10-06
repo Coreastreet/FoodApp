@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="Menu">Noodle_Menu</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+
+    <string name="nav_my_card">My card</string>
+    <string name="nav_rewards">Rewards</string>
+    <string name="nav_special_offers">Special_offers</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_stores">Stores</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_sign_up">Sign_up</string>
+    <string name="nav_support">Support</string>
+
+    <string-array name="noodle_names">
+        <item>Duck noodles</item>
+        <item>Duck and mushroom noodles</item>
+        <item>Chicken and mushroom noodles</item>
+        <item>Mushroom noodles</item>
+        <item>Curry noodles</item>
+        <item>Walnut soba noodles</item>
+        <item>Nabeyaki udon noodles</item>
+
+        <item>Plain noodles</item>
+        <item>Tempura noodles</item>
+        <item>Oroshi noodles</item>
+        <item>Age-mochi noodles</item>
+        <item>Kitsune noodles</item>
+        <item>Vege Lover\'s Soba noodles</item>
+    </string-array>
+
+    <string-array name="noodle_description">
+        <item>Handmade soba noodles with sliced duck fillets</item>
+        <item>Handmade soba noodles with sliced duck fillets and Japanese Mushrooms</item>
+        <item>Handmade soba noodles with chicken and japanese mushrooms</item>
+        <item>Handmade soba noodles with assorted japanese mushrooms</item>
+        <item>Handmade soba noodles with chicken and japanese curry flavoured soup</item>
+        <item>Handmade soba noodles with chicken, vegetables and Japanese mushrooms in a walnut and sesame soup</item>
+        <item>Udon noodles in a hot pot soup with chicken, boiled vegetables, runny egg and prawn tempura</item>
+
+        <item>Plain handmade soba noodles</item>
+        <item>Handmade soba noodles with assorted tempura</item>
+        <item>Handmade soba noodles with mountain grated daikon radish</item>
+        <item>Handmade soba noodles with fried sticky rice(mochi)</item>
+        <item>Handmade soba noodles with marinated tasty bean curd</item>
+        <item>Handmade soba noodles with assorted vegetable tempura and boiled vegetables</item>
+    </string-array>
+
+    <string-array name="noodle_drawables">
+        <item>duck_soba</item>
+        <item>duck_and_mushroom_soba</item>
+        <item>chicken_and_mushroom</item>
+        <item>mushroom_soba</item>
+        <item>curry_soba</item>
+        <item>walnut_soba</item>
+        <item>nabeyaki_udon</item>
+        <item>plain_soba</item>
+        <item>tempura_soba</item>
+        <item>oroshi_soba</item>
+        <item>mochi_soba</item>
+        <item>kitsune_soba</item>
+        <item>vege_soba</item>
+    </string-array>
+
+    <string-array name = "noodle_extras_names">
+        <item>Noodle Type</item>
+        <item>Temperature</item>
+        <item>With Oomori</item>
+        <item>With Extra Dipping Sauce</item>
+    </string-array>
+
+    <string-array name = "string_value_array">
+        <item>Soba</item>
+        <item>Hot</item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+</resources>

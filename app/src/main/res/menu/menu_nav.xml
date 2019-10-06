@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_my_card"
+            android:title="@string/nav_my_card" />
+        <item
+            android:id="@+id/nav_rewards"
+            android:title="@string/nav_rewards" />
+        <item
+            android:id="@+id/nav_special_offers"
+            android:title="@string/nav_special_offers" />
+        <item
+            android:id="@+id/nav_menu"
+            android:title="@string/nav_menu" />
+    </group>
+
+    <item android:title = "@string/nav_support">
+        <menu>
+            <item
+                android:id = "@+id/nav_stores"
+                android:title = "@string/nav_stores" />
+            <item
+                android:id = "@+id/nav_feedback"
+                android:title = "@string/nav_feedback" />
+            <item
+                android:id = "@+id/nav_sign_up"
+                android:title = "@string/nav_sign_up" />
+        </menu>
+    </item>
+</menu>

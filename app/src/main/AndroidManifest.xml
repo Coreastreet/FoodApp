@@ -9,20 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".ExtrasActivity"
-            android:parentActivityName = ".NoodleDetailActivity"
-            android:label="@string/Menu">
-            <meta-data android:name = "android.support.PARENT_ACTIVITY"
-                android:value = ".NoodleDetailActivity"/></activity>
-        <activity android:name=".NoodleDetailActivity"
-            android:parentActivityName = ".MainActivity"
-            android:label="@string/Menu">
-            <meta-data android:name = "android.support.PARENT_ACTIVITY"
-                android:value = ".MainActivity"/>
+        <activity android:name=".FeedbackActivity"></activity>
+        <activity android:name=".HelpActivity" />
+        <activity
+            android:name=".ExtrasActivity"
+            android:label="@string/Menu"
+            android:parentActivityName=".NoodleDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NoodleDetailActivity" />
         </activity>
-        <activity android:name=".MainActivity"
-            android:label="@string/Menu" >
+        <activity
+            android:name=".NoodleDetailActivity"
+            android:label="@string/Menu"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/Menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
